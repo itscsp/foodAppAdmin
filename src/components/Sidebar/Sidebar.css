@@ -24,6 +24,11 @@
     cursor: pointer;
 }
 
+a.sidebar-option.active {
+    background: #fff0e2;
+    border-color: tomato;
+}
+
 @media(max-width:900px){
     .sidebar-option p{
         display: none;
